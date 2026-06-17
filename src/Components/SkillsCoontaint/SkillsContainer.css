@@ -1,0 +1,9 @@
+.image_Cont {
+  justify-self: center;
+}
+
+.image_Cont > img {
+  width: 130px;
+  height: 130px;
+}
+

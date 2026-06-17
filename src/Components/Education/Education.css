@@ -1,0 +1,74 @@
+.education {
+  color: #fff;
+}
+
+.edu_main {
+  margin-top: 10px;
+  /* border: 1px solid #ccc; */
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.education {
+  padding: 2%;
+}
+
+.main_head {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #242222;
+  width: 100%;
+  padding: 1%;
+}
+
+.edu_sub_main {
+  padding: 2%;
+  border-radius: 3px;
+}
+
+.edu_details_head,
+.edu_details_sep {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 599px) {
+  .edu_main {
+    padding: 2%;
+  }
+  .main_head {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+  .edu_item {
+    display: block;
+    margin-top: 10px !important;
+  }
+  .edu_Name {
+    font-size: 14px;
+    padding: 2px;
+    margin-top: 2px;
+    font-weight: 500;
+    background-color: #2c2929;
+  }
+  .edu_value {
+    margin: 7px 5px 0px 0px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 599px) {
+  .edu_item {
+    display: flex;
+    padding: 0px 0px 0px 10px;
+  }
+  .edu_Name {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .edu_value {
+    font-size: 15px;
+    margin: 10px 10px;
+  }
+}

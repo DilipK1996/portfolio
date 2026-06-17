@@ -1,0 +1,39 @@
+.address {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+}
+.add-head-main {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 1%;
+}
+.head {
+  font-size: 25px !important;
+  text-transform: uppercase;
+}
+
+.permanent {
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 3%;
+}
+.add-head {
+  text-align: center;
+  text-transform: uppercase;
+}
+.temperary {
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 3%;
+}
+.temp_main {
+  background-color: #292727;
+  margin-top: 10px !important;
+  display: flex;
+  padding: 2%;
+}
+.temp_main_item {
+}
