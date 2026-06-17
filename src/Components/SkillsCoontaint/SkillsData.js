@@ -9,6 +9,8 @@ import bootstraplogo from "../../assets/logo/bootstrap.png";
 import reduxlogo from "../../assets/logo/redux.png";
 import devexpress from "../../assets/logo/devexpress.png";
 import git from "../../assets/logo/git.png";
+import nextjslogo from "../../assets/logo/nextjslogo.png";
+
 
 
 export const skillsData = [
@@ -26,6 +28,11 @@ export const skillsData = [
     logo: javaseciplogo,
     skillsName: "Javascript",
     skillsDesc: "JavaScript is a high-level, dynamic programming language commonly used to create interactive effects within web browsers.",
+  },
+   {
+    logo: nextjslogo,
+    skillsName: "Next JS",
+    skillsDesc: "Next.js is a React framework that enables developers to build high-performance, SEO-friendly, and production-ready web applications using features like server-side rendering, static generation, and file-based routing.",
   },
   {
     logo: typescriptlogo,
