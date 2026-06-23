@@ -65,7 +65,7 @@ const Footer = () => {
 
             <a
               class="socialContainer containerFour"
-              href="https://wa.me/918931053956?text=Hello, Dilip kumar how are you ...!"
+              href="https://web.whatsapp.com/send?phone=918931053956&text=Hello,%20Dilip%20kumar%20how%20are%20you%20...!"
               target="_blank"
               rel="noopener noreferrer"
             >

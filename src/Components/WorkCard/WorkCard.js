@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./WorkCard.css";
 import { NavLink } from "react-router-dom";
 
-const WorkCard = ({ imgsrc, title, text, view, id, amountOfWords = 120 }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
-
+const WorkCard = ({ imgsrc, title, text, view, isExpanded, onToggle, amountOfWords = 120 }) => {
   const truncatedText =
     text.slice(0, amountOfWords) + (text.length > amountOfWords ? "..." : "");
 
@@ -19,7 +13,7 @@ const WorkCard = ({ imgsrc, title, text, view, id, amountOfWords = 120 }) => {
       <div className="pro_details">
         <p>{isExpanded ? text : truncatedText}</p>
         {text.length > amountOfWords && (
-          <span onClick={toggleExpand} className="read_more_btn">
+          <span onClick={onToggle} className="read_more_btn">
             {isExpanded ? "Read Less" : "Read More"}
           </span>
         )}
