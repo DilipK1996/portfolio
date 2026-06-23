@@ -36,7 +36,7 @@ const ProjectCardData = [
   },
    {
     imgsrc: pic3,
-    title: "Hireatrainer",
+    title: "Hire a trainer",
     text: "Hireatrainer is an online learning platform that connects students with professional trainers who specialize in programming and web development languages such as React, HTML, CSS, C#, and .NET. Trainers can create and manage their own courses, while students can enroll and attend online classes directly through the platform. It includes features like class scheduling, live sessions, assignments, and performance tracking, making the learning experience structured, efficient, and interactive.",
     view: "https://hireatrainer.10xlearnings.com",
   },
